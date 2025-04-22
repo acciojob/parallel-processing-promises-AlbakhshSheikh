@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+#loading {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px;
+}
+
+#error {
+  color: red;
+  margin: 20px;
+  font-size: 16px;
+}
+
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+}
+
+#output img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#download-images-button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
